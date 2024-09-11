@@ -1,10 +1,8 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-AI269)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-AI269)
-
-# AI269 - Prompt Engineering with SAP Generative AI Hub
+# SIT Gurgaon 2024 - Prompt Engineering with SAP Generative AI Hub
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session called AI269 - Prompt Engineering with SAP Business AI.  
+This repository contains the material for the SIT Gurgaon 2024 session called Prompt Engineering with SAP Business AI.  
 
 ## Overview
 
@@ -16,7 +14,7 @@ Get hands-on experience and learn how to combine business data with generative A
 
 ## Exercises
 
-In this exercise, you will have the opportunity to explore various prompt techniques using the AI Launchpad prompt editor. The first step is to create a deployment for the llm model, which can then be used for prompting. Once the model deployment is set up within the prompt editor, you have the flexibility to modify parameters such as temperature and Max Tokens before sending the prompt request.
+In this exercise, you will have the opportunity to explore various prompt techniques using the AI Launchpad prompt editor. You have the flexibility to modify parameters such as temperature and Max Tokens before sending the prompt request.
 
 Additionally, take advantage of the prompt management feature, which allows you to save your prompts and create versions. This feature enables you to compare responses and make adjustments for better fine-tuning of the prompt. By leveraging prompt management, you can optimize your prompts and enhance the overall performance of the model.
 
