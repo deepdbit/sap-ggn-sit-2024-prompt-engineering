@@ -18,72 +18,9 @@ AI Launchpad URL (Generative AI Experience Lab) - [Link](https://sapit-core-play
 
 Click on the above link, you should be logged directly into the app. 
 
-For this workshop, a connection to aicore has already been established through AI Launchpad. To proceed, choose the existing connection named **teched-demo** and select the **teched-rg-WorkstationNumber** resource group.
+For this workshop, a connection to aicore has already been established through AI Launchpad. 
 
-<left><img src="./images/ail01.png" alt="foundation-models" style="width: 800px;"/></left>
-
-After selecting the resourceGroup, you will be able to see the  **mloperations** application in the side navigation.
-
-### 1. Deploying LLM models
-To make LLMs accessible, you can create an LLM deployment for each model and its version.
-
- - Check whether the foundation-models scenario is present in your workspace
-
-<left><img src="./images/ail02.png" alt="foundation-models" style="width: 800px;"/></left>
-
-- Creating a configuration
-
-<left><img src="./images/ail04.png" alt="foundation-models" style="width: 800px;"/></left>
-
-- Give a name for the configuration,
-- select the foundation-models scenario.
-- Choose the version and select azure-openai executable.
-
-
-<left><img src="./images/ail03.png" alt="foundation-models" style="width: 800px;"/></left>
-
-In input parameters, give name and version of the model you want to use.
-
-<left><img src="./images/ail05.png" alt="foundation-models" style="width: 800px;"/></left>
-
-These are the models available as of now:
-| 	Executable Id	 | 	Model Name	 | 	Version	 | 
-| 	:-----:	       | 	:-----:	    | 	:-----:	 | 
-| 	azure-openai	  | 	gpt-35-turbo| 	0613	    | 
-| 	azure-openai	  | 	gpt-35-turbo-16k| 	0613	    | 
-| 	azure-openai	  | 	gpt-4       | 	0613	    | 
-| 	azure-openai	  | 	gpt-4-32k      | 	0613	    | 
-| 	aicore-opensource	  | 	tiiuae--falcon-40b-instruct      | 	null	    | 
- 
-
-Click next -> review -> create.
-
-
-
-### 2. Creating a deployment
-Once you created the configuration, click on create deployment.
-
-<left><img src="./images/ail06.png" alt="foundation-models" style="width: 800px;"/></left>
-
-Set duration as standard and click review.
-
-<left><img src="./images/ail08.png" alt="foundation-models" style="width: 800px;"/></left>
-
-After creating the deployment, please wait until the current status is set to RUNNING.
-
-<left><img src="./images/ail09.png" alt="foundation-models" style="width: 800px;"/></left>
-
-To access the Prompt Editor, navigate to Generative AI once the deployment is up and running.
-
-<left><img src="./images/ail10.png" alt="foundation-models" style="width: 800px;"/></left>
-
-In the Selected Model section, you can find a comprehensive list of all the deployed models. Simply choose the model that suits your needs. By default, the gpt-35-turbo model will be pre-selected for you.
-
-<left><img src="./images/ail11.png" alt="foundation-models" style="width: 800px;"/></left>
-
-Now, you can prompt your queries and generate responses.
-
-### 3. Querying the LLMs
+### 1. Querying the LLMs
 Give your prompt in the prompt field, and click on Run to get your output.
 
 We can set the following parameters here -
