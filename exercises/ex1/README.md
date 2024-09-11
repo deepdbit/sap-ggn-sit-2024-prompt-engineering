@@ -18,12 +18,17 @@ AI Launchpad URL (Generative AI Experience Lab) - [Link](https://sapit-core-play
 
 Click on the above link, you should be logged directly into the app. 
 
+![image](https://github.com/user-attachments/assets/12d0ca14-b977-42f4-9ae2-207873bbfe3c)
+
 For this workshop, a connection to aicore has already been established through AI Launchpad. 
 
 ### 1. Querying the LLMs
 Give your prompt in the prompt field, and click on Run to get your output.
 
 We can set the following parameters here -
+
+![image](https://github.com/user-attachments/assets/9e10d505-3b9c-4d55-88df-e7b43f8525ad)
+
 
 **Max-Tokens**: The maximum number of tokens allowed for the generated answer. **For this workshop set to 2300 to 2500**
 
@@ -44,16 +49,19 @@ SAP AI core is a platform for building AI applications. which can be used to tra
 ```
 
 
-<left><img src="./images/ail12.png" alt="foundation-models" style="width: 800px;"/></left>
+![image](https://github.com/user-attachments/assets/35c8c602-43e2-4623-87b2-5d7aea68aae3)
+
 1. To save the prompt, simply click on the save button and provide a name and collection for easy reference in the future.
 2. By utilizing the "Create New" feature, we can easily generate new prompts.
 3. By utilizing the select option, we can conveniently choose from a list of previously saved prompts.
 
-<left><img src="./images/ail13.png" alt="foundation-models" style="width: 800px;"/></left>
+![image](https://github.com/user-attachments/assets/18fa2776-55bc-4c68-aa2f-f64973c06779)
+
 
 Next, let's explore how we can effectively manage the prompts that have already been saved on the prompt management page. To do this, navigate to the Generative AI Hub and select the prompt management option from the side menu.
 
-<left><img src="./images/ail14.png" alt="foundation-models" style="width: 800px;"/></left>
+![image](https://github.com/user-attachments/assets/56769f8c-0986-4224-b087-53b5bcffcd67)
+
 
 1. Filter the prompts
 2. Search and filtering options, including date, model, and collection
@@ -63,10 +71,6 @@ Next, let's explore how we can effectively manage the prompts that have already 
 
 
 Now that you have had the opportunity to explore the prompt engineering feature of AI Launchpad, let's delve into some exciting prompt techniques that you can experiment with.
-
-### _Disclaimer:_
-
-_Please be aware that the application you are currently using is still under active development. As a result, it is possible that you may encounter certain issues or experience limitations during your workshop or usage of the system._
 
 ## Text Summarization
 This example tasks the LLM with condensing and summarizing a given text. The text, clearly demarcated with triple backticks, is expected to be distilled into a concise summary of no more than 30 words. The focus is on extracting the most salient points and presenting them in a succinct manner, ensuring that the essence of the original content is retained without excessive verbosity. This format is designed to challenge the LLM’s capability to discern key details and convey them efficiently. For this demo we have taken 2 pages from SAP annual report 2 on Independent Assurance Practitioner’s Report by KPMG.
