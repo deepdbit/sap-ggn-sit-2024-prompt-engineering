@@ -14,9 +14,9 @@ SAP AI Core is a service designed to handle the execution and operations of your
 SAP AI Launchpad is a multitenant software as a service (SaaS) application in SAP Business Technology Platform which is used to manage AI use cases (scenarios) across multiple instances of AI runtimes. AICORE is one such runtime.
 
 ## Hands on steps
-AI Launchpad URL - https://aif-int-eu-central-1-aws.ai-launchpad.int.eu-central-1.aif-dev.com 
+AI Launchpad URL (Generative AI Experience Lab) - [Link](https://sapit-core-playground-vole.ai-launchpad.prod.eu-central-1.aws.apps.ml.hana.ondemand.com/aic/index.html#/generativeaihub?workspace=sap-genai-xl&resourceGroup=default&/g/prompteditor) 
 
-Click on the above link, you should be logged directly into the app. If prompted for credentials provide the username as DL_652F6D66500CAA028D229796@global.corp.sap and for password please check with the presenters.
+Click on the above link, you should be logged directly into the app. 
 
 For this workshop, a connection to aicore has already been established through AI Launchpad. To proceed, choose the existing connection named **teched-demo** and select the **teched-rg-WorkstationNumber** resource group.
 
